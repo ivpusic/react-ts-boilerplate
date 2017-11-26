@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "baseUrl": "src",
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "lib": ["es2015", "es5", "es2016", "es6", "dom"],
+    "noUnusedLocals": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
